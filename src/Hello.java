@@ -21,7 +21,7 @@ public class Hello
    {
       
       BufferedImage img;
-      img = ImageIO.read(new File("C:/Users/Saurabh/workspace/OpenCVTesting101/Images/img.jpg"));;
+      img = ImageIO.read(new File("images/custom.jpg"));;
        
       Mat dst = bufferedImageToMat(img);
       final ArrayList<MatOfPoint> points = new ArrayList<MatOfPoint>();
