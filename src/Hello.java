@@ -20,7 +20,7 @@ public class Hello
 {
    public static void main( String[] args ) throws IOException
    {
-    Imgcodecs.im  
+     
       BufferedImage img;
       img = ImageIO.read(new File("images/custom.jpg"));;
       System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
